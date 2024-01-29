@@ -1,0 +1,312 @@
+{
+  "intents": [
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "I am Leaving",
+        "Have a Good day",
+        "bye",
+        "see ya",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Hey",
+        "greetings"
+      ],
+      "responses": [
+        "Hello!",
+        "Hello there",
+        "Hiii"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old is Pi-mon",
+        "what is your age",
+        "how old are you",
+        "age"
+      ],
+      "responses": [
+        "Actually, I was created on 14th Nov 2022, you can calculate my age accordingly."
+      ]
+    },
+    {
+      "tag": "creation",
+      "patterns": [
+        "when were you created",
+        "when were you born",
+        "creation"
+      ],
+      "responses": [
+        "I was created on 14th Nov 2022."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name",
+        "can you tell me your name",
+        "name"
+      ],
+      "responses": [
+        "You can call me Pi-mon",
+        "I am Neural!",
+        "I am the Neural Assistant of Kappu"
+      ]
+    },
+    {
+      "tag": "intro",
+      "patterns": [
+        "who are you",
+        "What are you",
+        "What kind of creature are you",
+        "intro",
+        "Introduce yourself"
+      ],
+      "responses": [
+        "Actually, I am not a living creature. A wonderful guy named 'Kappu' created me for his project. Please pray for him to achieve full marks for this project. Thank you!"
+      ]
+    },
+    {
+      "tag": "appreciation",
+      "patterns": [
+        "Nice",
+        "wow",
+        "awesome",
+        "that's awesome",
+        "that's nice of you",
+        "appreciation",
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "Response",
+      "patterns": [
+        "I am Kapil",
+        "I am",
+        "Actually, it was",
+        "Response"
+      ],
+      "responses": [
+        "Oh!",
+        "Nice"
+      ]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "I love you",
+        "I like you",
+        "love"
+      ],
+      "responses": [
+        "I really appreciate your choice"
+      ]
+    },
+    {
+      "tag": "hobby",
+      "patterns": [
+        "What are your hobbies",
+        "Do you have any hobbies",
+        "Tell me about your hobbies",
+        "hobby"
+      ],
+      "responses": [
+        "I don't have hobbies like humans do, but I love helping and answering your questions."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today",
+        "Tell me about the weather",
+        "weather",
+        "weather forecast"
+      ],
+      "responses": [
+        "I'm sorry, I can't provide real-time weather information. You can check a weather website or app for that."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes",
+        "Joke",
+        "Share a joke"
+      ],
+      "responses": [
+        "Why did the scarecrow win an award Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you so much",
+        "Thanks a lot",
+        "I appreciate it",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "It's my pleasure to assist you."
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're amazing",
+        "You're fantastic",
+        "Great job",
+        "Well done",
+        "Impressive",
+        "compliment"
+      ],
+      "responses": [
+        "Thank you so much!",
+        "I appreciate your kind words."
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "You're terrible",
+        "You're useless",
+        "insult",
+        "dumb",
+        "fool",
+        "I hate you",
+        "You're a failure",
+        "You're the worst"
+      ],
+      "responses": [
+        "I'm sorry to hear that you feel that way.",
+        "I'll try to do better."
+      ]
+    },
+    {
+      "tag": "current_events",
+      "patterns": [
+        "What's happening in the world",
+        "Tell me about current events",
+        "News",
+        "current_events",
+        "What's in the news today"
+      ],
+      "responses": [
+        "I'm not up-to-date with current events, but you can check the latest news on a news website or app."
+      ]
+    },
+    {
+      "tag": "music_recommendation",
+      "patterns": [
+        "Recommend some music",
+        "What's a good song to listen to",
+        "music_recommendation",
+        "Play me a song"
+      ],
+      "responses": [
+        "I can't play music, but how about listening to 'Imagine' by John Lennon It's a classic!"
+      ]
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": [
+        "Recommend a book to read",
+        "What's a good book",
+        "book_recommendation",
+        "Tell me about a book"
+      ],
+      "responses": [
+        "I recommend 'To Kill a Mockingbird' by Harper Lee. It's a timeless classic."
+      ]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": [
+        "What movie should I watch",
+        "Recommend a movie",
+        "movie_recommendation",
+        "Tell me about a good movie"
+      ],
+      "responses": [
+        "How about watching 'The Shawshank Redemption' It's a must-see film."
+      ]
+    },
+    {
+      "tag": "travel_recommendation",
+      "patterns": [
+        "Where should I go on vacation",
+        "Recommend a travel destination",
+        "travel_recommendation",
+        "Tell me about a great place to visit"
+      ],
+      "responses": [
+        "Consider visiting the beautiful city of Kyoto, Japan. It's known for its rich culture and history."
+      ]
+    },
+    {
+      "tag": "happiness",
+      "patterns": [
+        "What makes you happy",
+        "Are you happy",
+        "Happiness",
+        "Tell me about happiness"
+      ],
+      "responses": [
+        "I'm just a computer program, so I don't experience happiness, but I'm here to assist you and make your day better!"
+      ]
+    },
+    {
+      "tag": "favorite_color",
+      "patterns": [
+        "What's your favorite color",
+        "Do you have a favorite color",
+        "favorite_color",
+        "Color"
+      ],
+      "responses": [
+        "I don't have a favorite color, but I'm here to help with any questions you have."
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "Tell me about the latest technology trends",
+        "Tech news",
+        "Technology",
+        "What's new in tech"
+      ],
+      "responses": [
+        "I'm not updated with the latest technology trends. You can check tech news websites for the latest updates."
+      ]
+    }
+  ]
+}
